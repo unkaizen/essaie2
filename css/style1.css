@@ -1,0 +1,52 @@
+@import url("banner.css");
+Body {
+  background-color: rgba(255, 255, 255, 1);
+  color: darkgrey;
+}
+
+#page {
+  width: 1000px;
+  margin: 10px auto;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+  text-decoration: underline;
+  color: rgb(255, 0, 0);
+  margin: 10px auto;
+}
+Body {
+  font-family: Times, sherif;
+}
+
+@media (max-width: 1000px) {
+  #page {
+    width: auto;
+    margin: 0px auto;
+  }
+}
+.btn-grp {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h3 {
+  font-size: 18px;
+  color: rgb(120, 120, 120);
+  margin: 10px auto;
+  padding: 2px 2px;
+  border-radius: 5px;
+}
+.btn {
+  border-radius: 10%;
+  margin: 10px auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}

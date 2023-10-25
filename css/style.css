@@ -1,0 +1,67 @@
+@import url("banner.css");
+
+Body {
+  background-color: rgba(255, 255, 255, 1);
+  color: darkgrey;
+}
+
+#tout {
+  width: 1000px;
+  margin: auto;
+}
+Body {
+  font-family: Times, sherif;
+}
+a {
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+  text-justify: justify;
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+@media (max-width: 1000px) {
+  #tout {
+    width: auto;
+    margin: 0px auto;
+  }
+}
+.btn-grp {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  border-radius: 10%;
+  margin: 10px auto;
+  padding: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-grow: 1;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+#btn1 {
+  background-image: url("image.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+#btn2 {
+  background-image: url("image.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+#btn3 {
+  background-image: url("image.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
